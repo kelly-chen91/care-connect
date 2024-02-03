@@ -1,25 +1,33 @@
 import { Outlet, Link } from 'react-router-dom'
 import '../App.css'
+import logo from "../logo.png";
+
 export default function Layout() {
     return (
-        <>
-            <nav className='navigation'> {/* A list of navigation links */}
-                <ul>
-                    <li>
-                        <Link to="/home" class="button">Home</Link>
-                    </li>
+        <section>
+            <nav className="navigation">
+                {" "}
+                {/* A list of navigation links */}
+                <div class="logo">
+                    <img src={logo} class="logo" alt="Company Logo" />
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <a href="/home">Home</a>
+                        </li>
 
-                    <li>
-                        <Link to="/about" class="button">About</Link>
-                    </li>
+                        <li>
+                            <a href="/about">About</a>
+                        </li>
 
-                    <li>
-                        <Link to="/portal" class="button">Portal </Link>
-                    </li>
-                </ul>
-
+                        <li>
+                            <a href="/portal">Portal </a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
             <Outlet />
-        </>
+        </section>
     );
 }
