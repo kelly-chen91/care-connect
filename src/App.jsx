@@ -1,58 +1,65 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css' 
-import cna from './cna.png'
-import LoginForm from './loginform';
-
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
+import "./App.css";
+import cna from "./cna.png";
+import LoginForm from "./loginform";
 
 function App() {
   return (
-  <div> {/* Acts as a container that holds the element */}
+    <div>
+      {" "}
+      {/* Acts as a container that holds the element */}
+      {/* Section is used to represent distinct sections of content within a webpage */}
+      <section>
+        {" "}
+        {/* Company Name */}
+        <p class="company-name">
+          <i>CareConnect</i>
+        </p>
+      </section>
+      <section>
+        <nav className="navigation">
+          {" "}
+          {/* A list of navigation links */}
+          <ul>
+            <li>
+              <a href="/Home" class="button">
+                Home
+              </a>
+            </li>
 
-  {/* Section is used to represent distinct sections of content within a webpage */}
+            <li>
+              <a href="/About" class="button">
+                About
+              </a>
+            </li>
 
-    <section> {/* Company Name */}
-    <p class="company-name"><i>CareConnect</i></p> 
-    </section>
-
-    <section> 
-      <nav className='navigation'> {/* A list of navigation links */}
-       <ul>
-        <li>
-          <a href="/Home" class="button">Home</a>
-        </li>
-
-        <li>
-          <a href="/About" class="button">About</a>
-        </li>
-
-        <li>
-          <a href="/Portal" class="button">Portal </a>
-        </li>
-       </ul>
-  
-      </nav>
-    </section>
-
-    <section> {/* Mission Statement */}
-      <img src={cna} class="background-image" alt="Background Image" />
-      <p class="mission-statement">
-      Mission Statement: 
-      “A collaborative community comprised of undergraduate students <br/>
-      in biology, psychology, and computer science, 
-      united in their efforts to create a <br />
-      harmonious intersection between healthcare and technology to further improve
-      the life <br />
-      of seniors we love.”
-      </p>
-    </section>
-
-    <LoginForm/>
-
+            <li>
+              <a href="/Portal" class="button">
+                Portal{" "}
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section>
+        {" "}
+        {/* Mission Statement */}
+        <img src={cna} class="background-image" alt="Background Image" />
+        <p class="mission-statement">
+          Mission Statement: “A collaborative community comprised of
+          undergraduate students <br />
+          in biology, psychology, and computer science, united in their efforts
+          to create a <br />
+          harmonious intersection between healthcare and technology to further
+          improve the life <br />
+          of seniors we love.”
+        </p>
+      </section>
+      <LoginForm />
     </div>
   );
- 
 }
 
-export default App
+export default App;
