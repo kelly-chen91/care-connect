@@ -59,21 +59,20 @@ function App() {
 
       </div>
       <Routes>
+        <Route
+          path="/Home"
+        />
+        <Route
+          path="/About"
+        />
+        <Route
+          path="/Portal"
+        />
 
       </Routes>
     </Router>
 
   );
-
-  // <Router>
-  //   <div>
-  //     <Link to="/about">About</Link>
-  //   </div>
-  //   <Routes>
-  //     <Route path="/about" element={<About />} />
-
-  //   </Routes>
-  // </Router>
 }
 
 export default App
