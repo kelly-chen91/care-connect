@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { getImageUrl } from '../../utils'
+import { getImageUrl } from '../utils'
 
 function About()
 {
