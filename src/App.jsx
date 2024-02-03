@@ -46,8 +46,7 @@ function App() {
             in biology, psychology, and computer science, united in their <br />
             efforts to create a harmonious intersection between healthcare{" "}
             <br />
-            and technology to further improve the life 
-            of seniors we love.”
+            and technology to further improve the life of seniors we love.”
           </p>
         </div>
       </section>

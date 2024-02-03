@@ -2,75 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
-.logo {
-  /* position: fixed;
-  float: left; */
-  /* display: flex; */
-  /* margin: 13px;
-  padding: 10px;
-  margin-top: 49px;
-  left:0; */
-
-  img {
-    margin: 0;
-    padding: 15px;
-    height: 120px;
-    position: fixed;
-    top: 0;
-    left: 35px;
-  }
-
-  /* margin-bottom: 895px; */
+.company-name {
+  font-size: 40px;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  margin: 30px;
+  left: 151px;
 }
 
 .navigation {
-  /* position: fixed;
-    top: 0;
-    padding: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: antiquewhite; */
-  /* width: 100%; Adjust the width of the navigation block */
-  /* height: 0%; */
-  /* margin: 20px; */
-  /* color: black; */
-  /* background-color: antiquewhite; */
-  width: 100%;
-  font-size: 16px;
   position: fixed;
-  top: 15px;
-  right: 13px;
-  margin: 21px;
-  height: 70px;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: antiquewhite;*/
+  margin: 20px;
+  color: black;
+}
+
+.button {
+  font-size: 13px;
+  color: #232323;
+  background-color: #e0f2fe;
+  padding: 13px 25px;
+  margin: 15px;
+  border: none;
+  border-radius: 30em;
 }
 
 .navigation a {
   display: inline-block;
   color: inherit;
-  /* border-radius: 20px; Add rounded corners */
+  border-radius: 20px; /* Add rounded corners */
 }
 
 .navigation ul {
-  /* padding: 0;
+  padding: 0;
   margin: 0;
   list-style-type: none;
   display: flex;
   gap: 1rem;
-  float: right;  */
-  float: right;
-
-  margin: 0;
-  padding: 0;
-  li {
-    display: inline-block;
-    list-style-type: none;
-    padding-right: 20px;
-    a:link {
-      line-height: 70px;
-      height: 70px;
-    }
-  }
 }
 
 .navigation li:hover {
@@ -80,36 +55,21 @@
 }
 
 .background-image {
-  position: fixed;
-  margin: 65px;
-  top: 130px;
-  left: 0;
-  width: 790px;
+  margin: 85px;
+  width: 660px;
   height: 480px;
+  opacity: 0.5; /* Making the image transparent */
 }
 
 .mission-statement {
-  line-height: 30px;
-  font-size: 14px;
   position: fixed;
-  top: 355px;
+  top: 250px;
   display: flex;
   margin: 25px;
-  left: 220px;
+  left: 80px;
 }
 
 .log-in {
   position: fixed;
-  top: 260px;
-  right: 190px;
-}
-
-.copy-right {
-  position: absolute;
-  bottom: 0;
-  left: 20px;
-  width: 100%;
-  /* background-color: #333; */
-  color: gray;
-  padding: 10px;
+  top: 200px;
 }
