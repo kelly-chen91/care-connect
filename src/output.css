@@ -544,62 +544,69 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.logo{
-  position: fixed;
-  display: flex;
-  margin: 13px;
+.logo {
+  /* position: fixed;
+  float: left; */
+  /* display: flex; */
+  /* margin: 13px;
   padding: 10px;
   margin-top: 49px;
-  left:0;
+  left:0; */
+  float: left;
+  margin: 0;
 }
 
-.navigation{
-  position: fixed;
-  top: 0;
-  padding: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: antiquewhite;
-  width: 100%;
-  /* Adjust the width of the navigation block */
+.navigation {
+  /* position: fixed;
+    top: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: antiquewhite; */
+  /* width: 100%; Adjust the width of the navigation block */
   /* height: 0%; */
-  margin: 20px;
-  color: black;
+  /* margin: 20px; */
+  /* color: black; */
 }
 
-.button{
+.button {
   font-size: 13px;
-  color:#232323;
-  background-color:#e0f2fe;
+  color: #232323;
+  background-color: #e0f2fe;
   padding: 13px 25px;
   border: none;
   border-radius: 30em;
-  float: left;
+  /* float: right; Change float property to right */
 }
 
-.navigation a{
+.navigation a {
   display: inline-block;
   color: inherit;
   border-radius: 20px;
   /* Add rounded corners */
 }
 
-.navigation ul{
+.navigation ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
   display: flex;
   gap: 1rem;
+  float: right;
 }
 
-.navigation li:hover{
+.navigation li {
+  display: inline;
+}
+
+.navigation li:hover {
   cursor: pointer;
   transition: all 0.3s ease;
-  text-decoration:none;
+  text-decoration: none;
 }
 
-.background-image{
+.background-image {
   margin: 85px;
   width: 660px;
   height: 480px;
@@ -607,18 +614,16 @@ video {
   /* Making the image transparent */
 }
 
-.mission-statement{
+.mission-statement {
   position: fixed;
-  top:270px;
+  top: 270px;
   display: flex;
   margin: 25px;
   left: 80px;
 }
 
-.log-in{
+.log-in {
   position: fixed;
   top: 260px;
   right: 120px;
 }
-
-

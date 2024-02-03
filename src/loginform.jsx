@@ -28,9 +28,9 @@ const LoginForm = () => {
             </a>
           </div>
         </form>
-        <p class="text-center text-gray-500 text-xs">
+        {/* <p class="text-center text-gray-500 text-xs">
           &copy;2024 CareConnect. All rights reserved.
-        </p>
+        </p> */}
       </div>
     );
 };
