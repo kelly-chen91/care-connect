@@ -1,42 +1,76 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.company-name{
+  font-size: 40px;
+  position: fixed;
+  top:0px;
+  display: flex;
+  margin: 30px;
+  left:151px;
+
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navigation{
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*background-color: antiquewhite;*/
+    margin: 20px;
+    color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.button{
+  font-size: 13px;
+  color:#232323;
+  background-color:#e0f2fe;
+  padding: 13px 25px;
+  margin: 15px;
+  border: none;
+  border-radius: 30em;
+ 
+}
+  
+.navigation a{
+  display: inline-block;
+  color: inherit;
+  border-radius: 20px; /* Add rounded corners */
 }
 
-.card {
-  padding: 2em;
+.navigation ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
 }
 
-.read-the-docs {
-  color: #888;
+.navigation li:hover{
+  cursor: pointer;   
+  transition: all 0.3s ease;
+  text-decoration:none;
 }
+
+.background-image{
+  margin: 85px;
+  width: 660px;
+  height: 480px;
+  opacity: 0.5; /* Making the image transparent */
+}
+
+.mission-statement{
+  position: fixed;
+  top:350px;
+  display: flex;
+  margin: 25px;
+  left: 80px;
+  
+
+}
+
