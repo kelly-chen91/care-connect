@@ -1,27 +1,34 @@
 import '../App.css'
 import LoginForm from './loginform';
 import cna from '../assets/cna.png';
+import mission from "../mission.png";
+import Layout from './Layout';
+
 export default function Home() {
     return (
-        <div>
-            <section> {/* Company Name */}
-                <p class="company-name"><i>CareConnect</i></p>
-            </section>
+        <div className='grid grid-cols-10 items-center gap-40 grid-flow-col'>
+            {" "}
+            {/* Acts as a container that holds the element */}
+            {/* Section is used to represent distinct sections of content within a webpage */}
+            <div className='col-span-6'>
+                {" "}
+                <img src={mission} class="background-image" alt="Background Image" />
+                <div>
+                    <p class="mission-statement">
+                        “A collaborative community comprised of undergraduate students{" "}
+                        <br />
+                        in biology, psychology, and computer science, united in their <br />
+                        efforts to create a harmonious intersection between healthcare{" "}
+                        <br />
+                        and technology to further improve the life
+                        of seniors we love.”
+                    </p>
+                </div>
 
-            <section> {/* Mission Statement */}
-                <img src={cna} class="background-image" alt="Background Image" />
-                <p className="mission-statement">
-                    Mission Statement:
-                    “A collaborative community comprised of undergraduate students <br />
-                    in biology, psychology, and computer science,
-                    united in their efforts to create a <br />
-                    harmonious intersection between healthcare and technology to further improve
-                    the life <br />
-                    of seniors we love.”
-                </p>
-            </section>
-
-            <LoginForm />
+            </div>
+            <div className='col-span-4'>
+                <LoginForm />
+            </div>
         </div>
     );
 }
