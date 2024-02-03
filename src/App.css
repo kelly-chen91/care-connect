@@ -66,11 +66,14 @@
 
 .mission-statement{
   position: fixed;
-  top:350px;
+  top:250px;
   display: flex;
   margin: 25px;
   left: 80px;
-  
+}
 
+.log-in{
+  position: fixed;
+  top: 200px;
 }
 

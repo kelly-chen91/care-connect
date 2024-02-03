@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css' 
 import cna from './cna.png'
+import LoginForm from './loginform';
+
 
 function App() {
   return (
@@ -36,7 +38,7 @@ function App() {
     <section> {/* Mission Statement */}
       <img src={cna} class="background-image" alt="Background Image" />
       <p class="mission-statement">
-        Mission Statement: 
+      Mission Statement: 
       “A collaborative community comprised of undergraduate students <br/>
       in biology, psychology, and computer science, 
       united in their efforts to create a <br />
@@ -44,11 +46,9 @@ function App() {
       the life <br />
       of seniors we love.”
       </p>
-
-
-
-
     </section>
+
+    <LoginForm/>
 
     </div>
   );
