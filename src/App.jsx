@@ -1,72 +1,59 @@
 import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import viteLogo from "/vite.svg";
 import "./App.css";
-import cna from "./cna.png";
+import mission from "./mission.png";
 import LoginForm from "./loginform";
-import AboutPage from "./components/aboutPage";
-import About from "./routes/About";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import logo from "./logo.png";
 
 function App() {
   return (
-    <Router>
-      <div>
-        {" "}
-        {/* Acts as a container that holds the element */}
-        {/* Section is used to represent distinct sections of content within a webpage */}
-        <section>
+    <div>
+      {" "}
+      {/* Acts as a container that holds the element */}
+      {/* Section is used to represent distinct sections of content within a webpage */}
+      <section>
+        <nav className="navigation">
           {" "}
-          {/* Company Name */}
-          <p class="company-name">
-            <i>CareConnect</i>
-          </p>
-        </section>
-        <section>
-          <nav className="navigation">
-            {" "}
-            {/* A list of navigation links */}
+          {/* A list of navigation links */}
+          <div class="logo">
+            <img src={logo} class="logo" alt="Company Logo" />
+          </div>
+          <div class="menu">
             <ul>
               <li>
-                <Link to="/Home" class="button">
-                  Home
-                </Link>
+                <a href="/Home">Home</a>
               </li>
 
               <li>
-                <Link to="/About" class="button">
-                  About
-                </Link>
+                <a href="/About">About</a>
               </li>
 
               <li>
-                <Link to="/Portal" class="button">
-                  Portal{" "}
-                </Link>
+                <a href="/Portal">Portal </a>
               </li>
             </ul>
-          </nav>
-        </section>
-        <section>
-          {" "}
-          {/* Mission Statement */}
-          <img src={cna} class="background-image" alt="Background Image" />
+          </div>
+        </nav>
+      </section>
+      <section>
+        {" "}
+        <img src={mission} class="background-image" alt="Background Image" />
+        <div>
           <p class="mission-statement">
-            Mission Statement: “A collaborative community comprised of
-            undergraduate students <br />
-            in biology, psychology, and computer science, united in their
-            efforts to create a <br />
-            harmonious intersection between healthcare and technology to further
-            improve the life <br />
+            “A collaborative community comprised of undergraduate students{" "}
+            <br />
+            in biology, psychology, and computer science, united in their <br />
+            efforts to create a harmonious intersection between healthcare{" "}
+            <br />
+            and technology to further improve the life 
             of seniors we love.”
           </p>
-        </section>
-        <LoginForm />
-      </div>
-      <Routes>
-        <Route path="/Home" />
-        <Route path="/About" element={<AboutPage />} />
-        <Route path="/Portal" />
-      </Routes>
-    </Router>
+        </div>
+      </section>
+      <p class="copy-right">&copy;2024 CareConnect. All rights reserved.</p>
+      <LoginForm />
+    </div>
   );
 }
 

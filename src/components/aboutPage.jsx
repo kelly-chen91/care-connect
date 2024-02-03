@@ -1,5 +1,4 @@
 import React from "react";
-
 function AboutPage() {
   return (
     <html>
@@ -82,5 +81,6 @@ function AboutPage() {
     </html>
   );
 }
+
 
 export default AboutPage;
