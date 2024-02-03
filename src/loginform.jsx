@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 
 const LoginForm = () => {
     return (
-        <div class="w-full max-w-xs">
+        <div class="w-full max-w-xs log-in">
         <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
           <div class="mb-4">
             <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
@@ -29,7 +29,7 @@ const LoginForm = () => {
           </div>
         </form>
         <p class="text-center text-gray-500 text-xs">
-          &copy;2020 Acme Corp. All rights reserved.
+          &copy;2024 CareConnect. All rights reserved.
         </p>
       </div>
     );

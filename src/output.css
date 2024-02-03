@@ -544,24 +544,26 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.company-name{
-  font-size: 40px;
+.logo{
   position: fixed;
-  top:0px;
   display: flex;
-  margin: 30px;
-  left:151px;
+  margin: 13px;
+  padding: 10px;
+  margin-top: 49px;
+  left:0;
 }
 
 .navigation{
   position: fixed;
   top: 0;
-  right: 0;
-  padding: 20px;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*background-color: antiquewhite;*/
+  background-color: antiquewhite;
+  width: 100%;
+  /* Adjust the width of the navigation block */
+  /* height: 0%; */
   margin: 20px;
   color: black;
 }
@@ -571,9 +573,9 @@ video {
   color:#232323;
   background-color:#e0f2fe;
   padding: 13px 25px;
-  margin: 15px;
   border: none;
   border-radius: 30em;
+  float: left;
 }
 
 .navigation a{
@@ -607,7 +609,7 @@ video {
 
 .mission-statement{
   position: fixed;
-  top:250px;
+  top:270px;
   display: flex;
   margin: 25px;
   left: 80px;
@@ -615,6 +617,8 @@ video {
 
 .log-in{
   position: fixed;
-  top: 200px;
+  top: 260px;
+  right: 120px;
 }
+
 
