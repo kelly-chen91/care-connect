@@ -1,34 +1,36 @@
 import { useState } from 'react'
-import './App.css'
+// import './App.css'
 import { getImageUrl } from '../utils'
 
-function About()
-{
-    <ProfileList/>
+export default function About() {
+    return (
+        <div>
+            <p>Hello World</p>
+            {/* <ProfileList /> */}
+        </div>
+    );
 }
 
-function ProfilePic({person,size})
-{
+function ProfilePic({ person, size }) {
     <img
         className='profilePic'
-        src = {getImageUrl(person)}
-        alt = {person.name}
-        width = {size}
-        height = {size}
+        src={getImageUrl(person)}
+        alt={person.name}
+        width={size}
+        height={size}
     />
 }
 
-export default function ProfileList()
-{
+function ProfileList() {
     return (
         <div>
-            <ProfilePic 
+            <ProfilePic
                 person={{
                     name: 'Jane Doe',
                     imageId: 'emoji.png'
                 }}
             />
-            <ProfilePic 
+            <ProfilePic
                 person={{
                     name: 'JaneDoe',
                     imageId: 'emoji.png'
