@@ -61,6 +61,7 @@
 
   margin: 0;
   padding: 0;
+
 }
 
 .navigation li {
@@ -88,6 +89,7 @@
   /* height: 480px; */
   width: 100%;
   height: auto;
+
 }
 
 .mission-statement {
@@ -106,6 +108,7 @@
   position: fixed;
   top: 260px;
   right: 190px;
+
 }
 
 .copy-right {
