@@ -2,10 +2,10 @@ import { useState } from 'react'
 // import './App.css'
 import { getImageUrl } from '../utils'
 
-function ProfilePic({ person, size }) {
+export default function ProfilePic({ person, size, url }) {
     <img
         className='profilePic'
-        src={getImageUrl(person)}
+        src={url}
         alt={person.name}
         width={size}
         height={size}
