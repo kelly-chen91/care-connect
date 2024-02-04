@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import '../portal.css'
 
 export default function Portal() {
     const [user, setUser] = useState("Guest")
@@ -6,7 +7,9 @@ export default function Portal() {
     useEffect(() => {
         setUser(window.localStorage.getItem("user"))
     }, [])
-    return <div class="text-center w-screen">
-        <h1 >Hello {user}</h1>
-    </div>;
+    return (
+        <div className="">
+            <h1 className="username">Hello {user}</h1>
+        </div>
+    );
 }
