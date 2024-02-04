@@ -14,9 +14,9 @@ function AboutPage() {
   return (
     <html>
       <div>
-        <div class="text-box">
-          <h1>About Us</h1>
-          <p>ABOUT WHAT WE DO:</p>
+        <div className="text-box">
+          <h1 className="pb-4">About Us</h1>
+          <p className="text-lg">ABOUT WHAT WE DO:</p>
           <a class="aa">
             When placing a senior citizen in a nursing home facility, it
             involves placing trust in the nursing staff with the care of a
@@ -44,7 +44,7 @@ function AboutPage() {
           </a>
           <br></br>
           <br></br>
-          <p>OUR HISTORY:</p>
+          <p className="text-lg">OUR HISTORY:</p>
           <a class="aa">
             Embarking on their academic journey at Stony Brook University,
             Allison Pascual, Chu En Chen, Fanny Pan, and Kiko Zhou delved into
@@ -73,16 +73,23 @@ function AboutPage() {
           </a>
           <br></br>
           <br></br>
-          <p>CareConnect GOALS:</p>
+          <p className="text-lg">CareConnect GOALS:</p>
           <a class="aa">
             Notifying family members about the personal daily activities of
-            loved ones to bring peace of mind. This includes: <br></br>When
-            meals are served<br></br>
-            When medication is given<br></br>When showers are given<br></br>
+            loved ones to bring peace of mind. This includes: 
+            <ul>
+              <li>When meals are served</li>
+              <li>When medication is given</li>
+              <li>When showers are given</li>
+
+            </ul>
             <br></br>Linking family members to the nursing home recreational
-            schedule which includes:<br></br>
-            Recreational events<br></br>
-            Holidays<br></br>
+            schedule which includes:
+            <ul>
+              <li>Recreational events</li>
+              <li>Holidays</li>
+            </ul>
+
             <br></br>
             Overall, we aim to make the family feel more involved in the life of
             their loved ones and to ensure that our seniors do not feel
@@ -91,7 +98,7 @@ function AboutPage() {
         </div>
         <img class="aboutPic" src={aboutUsPic}></img>
       </div>
-      <div class="teamImageContainer">
+      <div class="teamImageContainer flex">
         <img class="teamPic" src={ally}></img>
         <img class="teamPic" src={chuen}></img>
         <img class="teamPic" src={fanny}></img>
