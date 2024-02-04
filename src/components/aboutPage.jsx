@@ -1,6 +1,14 @@
 import React from "react";
 import "./aboutPage.css";
 import aboutUsPic from "../assets/about us pic.png";
+import ally from "../assets/ally.png";
+import chuen from "../assets/chuen_chen.png";
+import fanny from "../assets/fanny_pan.png";
+import kaitlyn from "../assets/kaitlyn.png";
+import kelly from "../assets/kelly.png";
+import kiko from "../assets/kiko_zhou.png";
+import maggie from "../assets/maggie.png";
+import zhen from "../assets/zhenting.png";
 
 function AboutPage() {
   return (
@@ -80,6 +88,16 @@ function AboutPage() {
           </a>
         </div>
         <img class="aboutPic" src={aboutUsPic}></img>
+      </div>
+      <div>
+        <img class="teamPic" src={ally}></img>
+        <img class="teamPic" src={chuen}></img>
+        <img class="teamPic" src={fanny}></img>
+        <img class="teamPic" src={kaitlyn}></img>
+        <img class="teamPic" src={kelly}></img>
+        <img class="teamPic" src={kiko}></img>
+        <img class="teamPic" src={maggie}></img>
+        <img class="teamPic" src={zhen}></img>
       </div>
     </html>
   );
