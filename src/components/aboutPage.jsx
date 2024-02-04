@@ -77,7 +77,6 @@ function AboutPage() {
             their loved ones and to ensure that our seniors do not feel
             forgotten!
           </a>
-          <p>Future Plans:</p>
         </div>
       </div>
     </html>
