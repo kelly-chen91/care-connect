@@ -3,6 +3,15 @@
 @tailwind utilities;
 
 .logo img {
+  /* position: fixed;
+  float: left; */
+  /* display: flex; */
+  /* margin: 13px;
+  padding: 10px;
+  margin-top: 49px;
+  left:0; */
+
+  /* img { */
   margin: 0;
   padding: 15px;
   height: 120px;
@@ -10,7 +19,9 @@
   top: 0;
   left: 35px;
 }
+
 /* margin-bottom: 895px; */
+
 
 .navigation {
   /* position: fixed;
@@ -44,28 +55,20 @@
   float: right;
   margin: 0;
   padding: 0;
+
+
 }
-.navigation ul li {
+
+.navigation li {
   display: inline-block;
   list-style-type: none;
   padding-right: 20px;
 }
 
-.navigation ul li a {
+.navigation li a:link {
   line-height: 70px;
   height: 70px;
 }
-
-/* li {
-    display: inline-block;
-    list-style-type: none;
-    padding-right: 20px;
-
-    a:link {
-      line-height: 70px;
-      height: 70px;
-    }
-  } */
 
 .navigation li:hover {
   cursor: pointer;
@@ -75,20 +78,25 @@
 
 .background-image {
   margin: 65px;
-  top: 130px;
+  /* top: 100px; */
   left: 0;
-  width: 790px;
-  height: 480px;
+  /* width: 790px; */
+  /* height: 480px; */
+  width: 100%;
+  height: auto;
+
 }
 
 .mission-statement {
+  position: absolute;
   line-height: 30px;
   font-size: 14px;
-  position: fixed;
-  top: 280px;
-  display: flex;
+  top: 50%;
+  width: 500px;
+  /* display: flex; */
   margin: 25px;
-  left: 220px;
+  left: 50%;
+  transform: translate(-40%, -70%);
 }
 
 .log-in {
