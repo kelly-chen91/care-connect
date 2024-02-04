@@ -14,7 +14,7 @@
 
 .text-box {
   margin-top: 150px;
-  margin-left: 100px;
+  margin-left: 125px;
   border-style: solid;
   border-color: transparent;
   border-width: 5px;
@@ -26,14 +26,14 @@
 .aboutPic {
   position: absolute;
   margin-top: -500px;
-  margin-left: 750px;
+  margin-left: 825px;
   width: 500px;
   height: 500px;
 }
 
 .teamImageContainer {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 100px;
   display: flex;
 }
 
