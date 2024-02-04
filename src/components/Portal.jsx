@@ -14,7 +14,7 @@ export default function Portal() {
     }, [])
     return (
         <div>
-            <h1 className="username">Hello {user}</h1>
+            <h1 className="ml-10 pl-4 mb-10">Hello {user}</h1>
             <div className="flex items-center justify-center px-12">
                 <div>
                     {/* <img
@@ -39,12 +39,7 @@ export default function Portal() {
                 </div>
                 <div>
                     <div className="flex flex-col bg-indigo-200 rounded-3xl p-4 w-80 text-center">
-                        {/* <img
-                        className='w-4/5'
-                        src={notifications}
-                        alt='notification'
-                    /> */}
-                        <p className="text-2xl">Notifications</p>
+                        <div className="border-black border bg-yellow-400 text-xl rounded-3xl m-2 w-6/12">Notifications</div>
                         <div className="bg-white rounded-3xl p-4 m-2"> Col 1 </div>
                         <div className="bg-white rounded-3xl p-4 m-2"> Col 2 </div>
                         <div className="bg-white rounded-3xl p-4 m-2"> Col 3 </div>
