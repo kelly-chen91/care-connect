@@ -89,7 +89,7 @@ function AboutPage() {
         </div>
         <img class="aboutPic" src={aboutUsPic}></img>
       </div>
-      <div>
+      <div class="teamImageContainer">
         <img class="teamPic" src={ally}></img>
         <img class="teamPic" src={chuen}></img>
         <img class="teamPic" src={fanny}></img>
