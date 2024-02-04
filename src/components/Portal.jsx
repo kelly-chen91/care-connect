@@ -12,12 +12,22 @@ export default function Portal() {
     return (
         <div>
             <h1 className="username">Hello {user}</h1>
-            <div className="w-6/12">
+            <div className="w-6/12 flex">
                 <img
                     className='profilePic'
                     src={fanny_pan}
                     alt='Fanny Pan'
                 />
+                <div>
+                    <div className="">
+                        <p>Name: Pan, Fanny</p>
+                        <p>Hours: 9am to 5pm</p>
+                    </div>
+                    <div>
+                        <p>Phone Number</p>
+                    </div>
+
+                </div>
             </div>
         </div>
     );
