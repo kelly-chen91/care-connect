@@ -12,17 +12,14 @@ export default function Home({ setUser }) {
             {/* Section is used to represent distinct sections of content within a webpage */}
             <div className='col-span-6'>
                 {" "}
-                <img src={mission} class="background-image" alt="Background Image" />
-                <div>
-                    <p class="mission-statement">
-                        “A collaborative community comprised of undergraduate students{" "}
-                        <br />
-                        in biology, psychology, and computer science, united in their <br />
-                        efforts to create a harmonious intersection between healthcare{" "}
-                        <br />
-                        and technology to further improve the life
-                        of seniors we love.”
-                    </p>
+                <div className="relative">
+                    <img src={mission} class="background-image" alt="Background Image" />
+                        <p class="mission-statement">
+                            A collaborative community comprised of undergraduate students in biology,
+                            psychology, and computer science, united in their efforts to create a
+                            harmonious intersection between healthcare and technology to further improve the life
+                            of seniors we love.
+                        </p>
                 </div>
 
             </div>
