@@ -14,7 +14,7 @@ export default function Portal() {
     return (
         <div>
             <h1 className="username">Hello {user}</h1>
-            <div className="flex justify-between p-4">
+            <div className="flex items-center justify-between px-12">
                 <div>
                     <img
                         className='w-4/5'
@@ -32,7 +32,7 @@ export default function Portal() {
 
 
             </div>
-            <div className="flex justify-center p-4">
+            <div className="flex justify-center px-8">
                 <img
                     className='w-4/5'
                     src={calendar}
