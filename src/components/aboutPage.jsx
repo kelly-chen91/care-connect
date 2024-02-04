@@ -1,8 +1,10 @@
 import React from "react";
+import "./aboutPage.css";
+
 function AboutPage() {
   return (
     <html>
-      <div>
+      <div class="text-box">
         <div>
           <h1>About Us</h1>
           <p>ABOUT WHAT WE DO:</p>
@@ -81,6 +83,5 @@ function AboutPage() {
     </html>
   );
 }
-
 
 export default AboutPage;
