@@ -1,11 +1,12 @@
 import React from "react";
 import "./aboutPage.css";
+import aboutUsPic from "../assets/about us pic.png";
 
 function AboutPage() {
   return (
     <html>
-      <div class="text-box">
-        <div>
+      <div>
+        <div class="text-box">
           <h1>About Us</h1>
           <p>ABOUT WHAT WE DO:</p>
           <a>
@@ -78,6 +79,7 @@ function AboutPage() {
             forgotten!
           </a>
         </div>
+        <img class="aboutPic" src={aboutUsPic}></img>
       </div>
     </html>
   );
