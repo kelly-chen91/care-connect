@@ -2,15 +2,6 @@ import { useState } from 'react'
 // import './App.css'
 import { getImageUrl } from '../utils'
 
-export default function About() {
-    return (
-        <div>
-            <p>Hello World</p>
-            {/* <ProfileList /> */}
-        </div>
-    );
-}
-
 function ProfilePic({ person, size }) {
     <img
         className='profilePic'
