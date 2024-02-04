@@ -12,14 +12,14 @@ export default function Portal() {
     return (
         <div>
             <h1 className="username">Hello {user}</h1>
-            <div className="w-6/12 flex">
+            <div className="flex">
                 <img
-                    className='profilePic'
+                    className='w-6/12'
                     src={fanny_pan}
                     alt='Fanny Pan'
                 />
-                <div>
-                    <div className="">
+                <div className="">
+                    <div>
                         <p>Name: Pan, Fanny</p>
                         <p>Hours: 9am to 5pm</p>
                     </div>
