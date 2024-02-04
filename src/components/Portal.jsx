@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import '../portal.css'
-import "../portal.css";
-// import "../App.css";
+// import ProfilePic from "./Profile";
+import fanny_pan from '../assets/fanny_pan.png'
 
 export default function Portal() {
   const [user, setUser] = useState("Guest");
@@ -10,8 +10,15 @@ export default function Portal() {
         setUser(window.localStorage.getItem("user"))
     }, [])
     return (
-        <div className="">
+        <div>
             <h1 className="username">Hello {user}</h1>
+            <div className="w-6/12">
+                <img
+                    className='profilePic'
+                    src={fanny_pan}
+                    alt='Fanny Pan'
+                />
+            </div>
         </div>
     );
   useEffect(() => {
