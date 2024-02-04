@@ -5,7 +5,7 @@ import logo from "../logo.png";
 export default function Layout() {
     return (
         <section>
-            <nav className="navigation">
+            <nav className="navigation flex items-center justify-between">
                 {" "}
                 {/* A list of navigation links */}
                 <div class="logo">
