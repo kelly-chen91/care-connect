@@ -8,19 +8,19 @@ export default function Portal() {
   useEffect(() => {
     setUser(window.localStorage.getItem("user"));
   }, []);
-//   return (
-    
-    // <div class="text-center w-screen">
-    //   <h1>Hello {user}</h1>
-    // </div>
-//   );
-// }
+  //   return (
 
-return (
+  // <div class="text-center w-screen">
+  //   <h1>Hello {user}</h1>
+  // </div>
+  //   );
+  // }
+
+  return (
     <div className="relative w-screen">
       {/* Text on the top left */}
       <div className="username">
-        <p>Hello {user}</p>
+        <p>Helflo {user}</p>
       </div>
       {/* Main content */}
       <div className="text-center">
