@@ -1,6 +1,6 @@
-export function getImageUrl()
+export function getImageUrl({person})
 {
     return (
-        './assets/' + personalbar.imageId
+        './assets/' + person.imageId
     );
 }
