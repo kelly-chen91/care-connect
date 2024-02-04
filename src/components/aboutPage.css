@@ -15,13 +15,15 @@
 
 .aboutPic {
   position: absolute;
-  margin-top: -500px;
+  margin-top: 150px;
   margin-left: 750px;
   width: 500px;
   height: 500px;
 }
 
 .teamImageContainer {
+  margin-top: 50px;
+  margin-left: 50px;
   display: flex;
 }
 
