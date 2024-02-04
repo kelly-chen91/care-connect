@@ -17,7 +17,7 @@ function AboutPage() {
         <div class="text-box">
           <h1>About Us</h1>
           <p>ABOUT WHAT WE DO:</p>
-          <a>
+          <a class="aa">
             When placing a senior citizen in a nursing home facility, it
             involves placing trust in the nursing staff with the care of a
             cherished family member. This trust also brings forth a complex
@@ -27,7 +27,7 @@ function AboutPage() {
           </a>
           <br></br>
           <br></br>
-          <a>
+          <a class="aa">
             Having served as Certified Nursing Assistants (CNAs) in the past,
             the CareConnect Team possesses firsthand experience with the
             intricacies of the patient-provider relationship within the nursing
@@ -43,8 +43,9 @@ function AboutPage() {
             trifecta of uniting essential figures within the healthcare network.
           </a>
           <br></br>
+          <br></br>
           <p>OUR HISTORY:</p>
-          <a>
+          <a class="aa">
             Embarking on their academic journey at Stony Brook University,
             Allison Pascual, Chu En Chen, Fanny Pan, and Kiko Zhou delved into
             the world of Biology, Health Science, and Psychology. They achieved
@@ -61,7 +62,7 @@ function AboutPage() {
           </a>
           <br></br>
           <br></br>
-          <a>
+          <a class="aa">
             In a harmonious blend of expertise, they joined forces with computer
             science students, Maggie Lin, Kelly Chen, Zhenting Ling, and Kaitlyn
             Chau. Driven by a shared ambition, they collaborated seamlessly.
@@ -71,8 +72,9 @@ function AboutPage() {
             technology solutions.
           </a>
           <br></br>
+          <br></br>
           <p>CareConnect GOALS:</p>
-          <a>
+          <a class="aa">
             Notifying family members about the personal daily activities of
             loved ones to bring peace of mind. This includes: <br></br>When
             meals are served<br></br>
