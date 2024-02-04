@@ -6,5 +6,7 @@ export default function Portal() {
     useEffect(() => {
         setUser(window.localStorage.getItem("user"))
     }, [])
-    return <h1>Hello {user}</h1>;
+    return <div class="text-center w-screen">
+        <h1 >Hello {user}</h1>
+    </div>;
 }

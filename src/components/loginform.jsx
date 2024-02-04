@@ -3,7 +3,7 @@ import { useState } from 'react'
 const LoginForm = ({ setUser }) => {
 
   const handleClick = () => {
-    window.localStorage.setItem("user", "Jie")
+    window.localStorage.setItem("user", "John Doe")
     window.location.href = "/portal"
   }
 
