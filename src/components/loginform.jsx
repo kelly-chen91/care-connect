@@ -1,6 +1,12 @@
 import { useState } from 'react'
 
-const LoginForm = () => {
+const LoginForm = ({ setUser }) => {
+
+  const handleClick = () => {
+    window.localStorage.setItem("user", "John Doe")
+    window.location.href = "/portal"
+  }
+
   return (
     <div class="w-full max-w-xs">
       <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
@@ -18,7 +24,7 @@ const LoginForm = () => {
           <p class="text-red-500 text-xs italic">Please choose a password.</p>
         </div>
         <div class="flex items-center justify-between">
-          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+          <button onClick={handleClick} class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
             Sign In
           </button>
           <a class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800" href="#">
@@ -27,7 +33,7 @@ const LoginForm = () => {
         </div>
       </form>
       <p class="text-center text-gray-500 text-xs">
-        &copy;2020 Acme Corp. All rights reserved.
+        &copy;2024 CareConnect. All rights reserved.
       </p>
     </div>
   );

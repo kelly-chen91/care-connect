@@ -21,9 +21,9 @@ export default function Layout() {
                             <a href="/about">About</a>
                         </li>
 
-                        <li>
+                        {/* <li>
                             <a href="/portal">Portal </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

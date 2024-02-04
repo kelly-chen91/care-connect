@@ -2,14 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-.company-name {
-  font-size: 40px;
-  position: fixed;
-  top: 0px;
-  display: flex;
-  margin: 30px;
-  left: 151px;
-}
+
+
+
+  img {
+    margin: 0;
+    padding: 15px;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 35px;
+  }
+
+  /* margin-bottom: 895px; */
+
+
 
 .navigation {
   position: fixed;

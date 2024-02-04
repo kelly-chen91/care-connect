@@ -4,7 +4,7 @@ import cna from '../assets/cna.png';
 import mission from "../mission.png";
 import Layout from './Layout';
 
-export default function Home() {
+export default function Home({ setUser }) {
     return (
         <div className='grid grid-cols-10 items-center gap-40 grid-flow-col'>
             {" "}
@@ -27,7 +27,7 @@ export default function Home() {
 
             </div>
             <div className='col-span-4'>
-                <LoginForm />
+                <LoginForm setUser={setUser} />
             </div>
         </div>
     );
