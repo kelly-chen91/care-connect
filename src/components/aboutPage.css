@@ -24,7 +24,7 @@
 }
 
 .aboutPic {
-  position: absolute;
+  /* position: absolute; */
   margin-top: -500px;
   margin-left: 825px;
   width: 500px;
