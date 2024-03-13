@@ -2,7 +2,7 @@ const { MongoClient } = require("mongodb");
 require("dotenv").config({ path: "../config.env" });
 
 // This is definitely bad practice right here :(
-const Db = "mongodb+srv://lingzhenting:040040@cluster0.dlwbbpp.mongodb.net/";
+// Haha I deleted the link to my mongodb >:)
 
 console.log(Db)
 const client = new MongoClient(Db, {
